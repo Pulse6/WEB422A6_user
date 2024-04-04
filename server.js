@@ -9,8 +9,11 @@ const passport = require('passport');
 const HTTP_PORT = process.env.PORT || 8080;
 
 app.use(express.json());
-app.use(cors());
-
+// app.use(cors());
+app.use(cors({
+    origin: '*'
+  }));
+  
 app.post("/api/user/register", (req, res) => {
     userService.registerUser(req.body)
         .then((msg) => {
