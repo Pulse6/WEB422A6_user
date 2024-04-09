@@ -1,3 +1,17 @@
+/*********************************************************************************
+*  WEB422 – Assignment 6
+*
+*  I declare that this assignment is my own work in accordance with Seneca's
+*  Academic Integrity Policy:
+* 
+*  https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html
+* 
+*  Name: Marco Siu Student ID: 165093220 Date: Apr 10, 2023
+*
+*  Vercel App (Deployed) Link: https://web-422-a6-seven.vercel.app/
+*
+********************************************************************************/ 
+
 const express = require('express');
 const app = express();
 const cors = require("cors");
